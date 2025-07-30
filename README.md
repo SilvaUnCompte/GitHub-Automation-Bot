@@ -109,11 +109,12 @@ Each execution is different, helping simulate a variety of API use cases.
 
 ```text
 .
-├── main.py               # Main automation script
-├── change-me.txt         # Target file for simulated edits
-├── README.md             # Project documentation
-├── requirements.txt      # Python dependency list
-├── .env.example          # Environment variable template
-├── setup.sh              # Setup script for macOS/Linux
-└── setup.bat             # Setup script for Windows
+├── main.py                  # Main automation script
+├── change-me.txt            # Target file for simulated edits
+├── README.md                # Project documentation
+├── requirements.txt         # Python dependency list
+├── .env.example             # Environment variable template
+├── setup/                   # Setup scripts
+│   ├── setup.sh             # Unix/macOS install script
+│   └── setup.bat            # Windows install script
 ```

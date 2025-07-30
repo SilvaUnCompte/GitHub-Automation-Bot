@@ -1,12 +1,12 @@
 @echo off
 
-echo Installing Python dependencies...
-pip install -r requirements.txt
+echo 📦 Installing Python dependencies...
+pip install -r ..\requirements.txt
 
-echo Copying .env.example to .env...
-copy .env.example .env
+echo 📁 Copying .env.example to .env...
+copy ..\env.example ..\env > nul
 
-echo Open the .env file in a text editor and fill in your information.
+echo ✅ Setup complete!
+echo 🛠  Please edit the .env file to add your GitHub token and settings.
 
-echo Installation complete!
 pause
