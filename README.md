@@ -48,7 +48,7 @@ This project helps students:
 
 ```bash
 git clone https://github.com/<your-username>/GitHub-Cheat-Code.git
-cd GitHub-Cheat-Code
+cd GitHub-Automation-Bot
 ```
 ### 2. Install the dependencies
 
